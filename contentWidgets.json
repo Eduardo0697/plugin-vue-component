@@ -7,8 +7,58 @@
         "position": 1050,
         "widgetClass": "VueComponentExample\\Widgets\\NotificationWidget",
         "settings": {
+            "notificationType": {
+                "type": "select",
+                "required": true,
+                "defaultValue": "info",
+                "options": {
+                    "name": "Notification type",
+                    "listBoxValues": [
+                        {
+                            "value": "black",
+                            "caption": "Black"
+                        },
+                        {
+                            "value": "positive",
+                            "caption": "Positive"
+                        },
+                        {
+                            "value": "negative",
+                            "caption": "Negative"
+                        },
+                        {
+                            "value": "info",
+                            "caption": "Info"
+                        },
+                        {
+                            "value": "warning",
+                            "caption": "Warning"
+                        },
+                        {
+                            "value": "error",
+                            "caption": "Error"
+                        },
+                        {
+                            "value": "success",
+                            "caption": "Success"
+                        }
 
+                    ]
+                }
+            },
+            "headerNotification": {
+                "type": "text",
+                "required": false,
+                "options": {
+                    "name": "Header"
+                }
+            },
+            "content": {
+                "type": "codeEditor",
+                "options": {
+                    "name": "Content"
+                }
+            }
         }
-
     }
 ]

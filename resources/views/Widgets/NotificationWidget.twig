@@ -1,18 +1,11 @@
+{%  set notificationType = widget.settings.notificationType.mobile %}
+{%  set headerNotification = widget.settings.headerNotification.mobile %}
+{%  set content = widget.settings.content.mobile %}
 
     <div class="widget">
-        <notification-message type="error" header="Oh no!">
-            <p>Tu suscripcion se ha terminado!</p>
-        </notification-message>
-
-        <notification-message type="warning" header="Information!">
-            <p>Tu suscripcion esta por expirar!</p>
-        </notification-message>
-
-        <notification-message type="success" header="Great!">
-            <p>Tu suscripcion esta pagada</p>
-        </notification-message>
-
-        <notification-message>
-            <p>Mensaje informativo</p>
+        <notification-message
+                type="{{ notificationType }}"
+                {% if headerNotification | trim is not empty%} header="{{ headerNotification }}" {% endif %}>
+            {{ content | raw }}
         </notification-message>
     </div>
