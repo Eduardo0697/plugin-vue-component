@@ -25,6 +25,7 @@ class ServiceProviderExample extends ServiceProvider
         $eventDispatcher->listen('IO.Resources.Import', function (ResourceContainer $container)
         {
             $container->addScriptTemplate('VueComponentExample::Content.Scripts');
+            $container->addStyleTemplate('VueComponentExample::Content.Styles');
         }, 0);
     }
 }
