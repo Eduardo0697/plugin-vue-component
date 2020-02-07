@@ -13,7 +13,7 @@ Vue.component("notification-message",
             default: 'Information'
         }
     },
-    data (){
+    data() {
         return{
             hidden: false
         }
