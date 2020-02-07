@@ -2,7 +2,9 @@
     <div class="ui message" :class="type" v-if="!hidden">
         <i class="close icon" @click="hide"></i>
         <div class="header">
-            {{"{{header}}" }}
+            {% verbatim %}
+             {{header}}
+            {% endverbatim %}
         </div>
         <slot></slot>
 
