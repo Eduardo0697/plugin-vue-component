@@ -2,6 +2,7 @@ import "../scss/maps.scss";
 
 Vue.component("notification-message",
 {
+    delimiters: ["${", "}"],
     template: '#notification-message-template',
     props :{
         type:{

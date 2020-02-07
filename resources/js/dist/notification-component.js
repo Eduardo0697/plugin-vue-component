@@ -507,6 +507,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_maps_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_maps_scss__WEBPACK_IMPORTED_MODULE_0__);
 
 Vue.component("notification-message", {
+  delimiters: ["${", "}"],
   template: '#notification-message-template',
   props: {
     type: {
