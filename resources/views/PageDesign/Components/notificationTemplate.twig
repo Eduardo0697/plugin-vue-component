@@ -1,0 +1,10 @@
+<script type="x/template" id="notification-message-template">
+    <div class="ui error message" :class="type">
+        <i class="close icon" @click="hide"></i>
+        <div class="header">
+            {{ header }}
+        </div>
+        <slot></slot>
+
+    </div>
+</script>

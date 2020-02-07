@@ -1,0 +1,19 @@
+{
+  "name"              :"VueComponentExample",
+  "namespace"         :"VueComponentExample",
+  "type"              :"widget",
+  "version"           :"1.0.0",
+  "license"           :"Copyright by Armando Schmitt Digital Marketing",
+  "pluginIcon"        :"icon_plugin_xs.png",
+  "isClosedSource"    : true,
+  "description"       :"Plentymarkets Multicontent Widget plugin widget",
+  "author"            :"Armando Schmitt Digital Marketing",
+  "authorIcon"        :"icon_author_xs.png",
+  "email"             :"info@armandoschmitt.de",
+  "phone"             :   "+49 211 91 37 43 63‬",
+  "serviceProvider"   :"VueComponentExample\\Providers\\ServiceProviderExample",
+  "require"           :
+  {
+    "Ceres" : ">3.0.0"
+  }
+}

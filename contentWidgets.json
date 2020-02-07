@@ -1,0 +1,14 @@
+[
+    {
+        "identifier": "VueComponentExample::NotificationWidget",
+        "label": "Widget.mapsLabel",
+        "previewImageURL": "/images/google-maps-widget.svg",
+        "type": "default",
+        "position": 1050,
+        "widgetClass": "VueComponentExample\\Widgets\\NotificationWidget",
+        "settings": {
+
+        }
+
+    }
+]
