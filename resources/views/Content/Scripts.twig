@@ -1,1 +1,5 @@
+{% import "VueComponentExample::PageDesign.Macros.IncludeComponents" as Loader %}
+{{ component( "VueComponentExample::PageDesign.Components.notificationTemplate" ) }}
+{{ Loader.include_components() }}
+
 <script src="{{ plugin_path("VueComponentExample") }}/js/dist/notification-component-min.js"></script>
